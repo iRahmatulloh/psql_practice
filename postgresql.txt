@@ -1,0 +1,23 @@
+-- sizni dasturingiz joonloi data baza bn gaplashmaydi. 
+-- APP hamma ishni o'zi bajaradi. malumotlarni tartiblash yozish va h.k
+
+-- Ma'lumotlar ba'zasi malumotlarni ramga emas xotiraga saqlaydi.
+
+-- SQL || (structured query lang) strukturalangan so'rov tili.
+ 
+--  RDBMS || (Relational data base management system) - 
+
+create table table_name (
+	column_name <type> [constraints],
+	column_name <type> [constraints],
+	column_name <type> constraints
+)
+
+
+					--- ACID ---
+-- Atomicty || hammasi 100% ishlaydi yoki umuman ishlamaydi.
+-- Consistency || qoidalar orasida ishlaydi.
+-- Isolation
+-- Durability
+
+-- ACID || operatsiyalarni 1 ta operatsiya deb yuritadi.
